@@ -1,0 +1,60 @@
+th,
+td,
+table {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.txt-hedding {
+  font-size: 25px;
+  font-family: "Playfair Display";
+  font-weight: 900;
+
+}
+
+::placeholder {
+  color: white;
+}
+
+input {
+  font-size: 15px;
+  font-family: " Playfair Display";
+  font-weight: 900;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  height: 40px;
+}
+
+.bg {
+  background-image: url(https://www.fineshare.com/background/professional-zoom-backgrounds-6.jpg);
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+
+.back-color {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-radius: 30px;
+}
+
+label {
+  color: white;
+}
+
+.submit-button {
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  font-family: " Playfair Display";
+  font-weight: 500;
+  font-size: 20px;
+}
